@@ -1,0 +1,39 @@
+:root {
+  --hot-pink: #ff0099;
+  --light-green: #f6f6ed;
+  --neon-green: #dee763;
+}
+
+.App {
+  padding: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.nav-item {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-item:hover {
+  color: var(--hot-pink);
+}
+
+.profile-pic {
+  border-radius: 50%;
+}

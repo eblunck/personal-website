@@ -1,0 +1,23 @@
+[
+  {
+    "jobTitle": "Associate Consultant",
+    "company": "Capgemini",
+    "startDate": "Sep 2025",
+    "endDate": "Present",
+    "keyWords": ["React", "Typescript", "Azure"]
+  },
+  {
+    "jobTitle": "Master Thesis",
+    "company": "Grade",
+    "startDate": "Jan 2025",
+    "endDate": "Jun 2025",
+    "keyWords": ["React", "Javascript", "User-centerd design"]
+  },
+  {
+    "jobTitle": "GPU Software Intern",
+    "company": "Arm",
+    "startDate": "Jun 2024",
+    "endDate": "Dec 2024",
+    "keyWords": ["Python", "Javascript", "React"]
+  }
+]
