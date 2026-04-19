@@ -4,7 +4,7 @@
     "company": "Capgemini",
     "startDate": "Sep 2025",
     "endDate": "Present",
-    "keyWords": ["React", "Typescript", "Azure"]
+    "keyWords": ["React", "Typescript", "Azure", "CMS"]
   },
   {
     "jobTitle": "Master Thesis",
@@ -18,6 +18,20 @@
     "company": "Arm",
     "startDate": "Jun 2024",
     "endDate": "Dec 2024",
-    "keyWords": ["Python", "Javascript", "React"]
+    "keyWords": ["Python", "FastAPI", "Javascript", "React"]
+  },
+  {
+    "jobTitle": "Software Developer Intern",
+    "company": "Symetri",
+    "startDate": "Jun 2023",
+    "endDate": "Aug 2023",
+    "keyWords": ["C#", "WPF", "Test-driven development"]
+  },
+  {
+    "jobTitle": "Software Developer Intern",
+    "company": "Schneider Electric",
+    "startDate": "Jun 2022",
+    "endDate": "Aug 2022",
+    "keyWords": ["Python", "Kuberentes", "Docker", "gRPC"]
   }
 ]

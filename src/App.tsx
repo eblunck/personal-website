@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <MenuBar />
       <ExperienceSection idxNumber="01" />
-      <About idxNumber="03" />
+      <About idxNumber="02" />
     </div>
   );
 }

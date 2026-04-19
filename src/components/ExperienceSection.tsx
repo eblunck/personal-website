@@ -12,13 +12,27 @@ export default function ExperienceSection(props: ExperienceProps) {
       <div>
         {data.map((experience) => {
           return (
-            <div>
-              <h3>{experience.jobTitle}</h3>
-              <h3>{experience.company}</h3>
-              <h3>{experience.startDate + " - " + experience.endDate}</h3>
-              <p>{experience.keyWords.join(", ")}</p>
-              <br></br>
-              <br></br>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                paddingBottom: "3rem",
+              }}
+            >
+              <div>
+                <div style={{ fontSize: "24px", paddingBottom: "1rem" }}>
+                  <span>{experience.jobTitle}, </span>
+                  <span style={{ fontStyle: "italic" }}>
+                    {experience.company}
+                  </span>
+                </div>
+                <span style={{ fontSize: "16px" }}>
+                  {experience.keyWords.join(", ")}
+                </span>
+              </div>
+              <span style={{ fontSize: "24px" }}>
+                {experience.startDate + " - " + experience.endDate}
+              </span>
             </div>
           );
         })}
