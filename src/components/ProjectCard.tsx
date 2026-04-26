@@ -8,7 +8,7 @@ export default function ProjectCard({
   description,
 }: ProjectCardProps) {
   return (
-    <div style={{ width: "100%" }}>
+    <div>
       <div style={{ height: "60vh", backgroundColor: "gray" }}>
         <img src={img_path}></img>
       </div>
