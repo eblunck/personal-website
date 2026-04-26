@@ -1,13 +1,11 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import abouttext from "../data/abouttext.json";
-import TextSection from "./TextSection";
 
-interface AboutProps {
+interface ProjectsProps {
   idxNumber: string;
 }
 
-export default function About(props: AboutProps) {
+export default function Projects({ idxNumber }: ProjectsProps) {
   const [mouseInSection, setMouseInSection] = useState<boolean>(false);
 
   return (
@@ -16,11 +14,11 @@ export default function About(props: AboutProps) {
       onMouseLeave={() => setMouseInSection(false)}
     >
       <SectionTitle
-        title="About"
-        idx={props.idxNumber}
+        title="Projects"
+        idx={idxNumber}
         showUnderline={mouseInSection}
       />
-      <TextSection text={abouttext.text} />
+      <div></div>
     </div>
   );
 }

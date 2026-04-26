@@ -10,7 +10,8 @@ export default function MenuBar() {
       <div className="nav-items">
         <span className="nav-item">Experience</span>
         <span className="nav-item">Projects</span>
-        <span className="nav-item">About & Contact</span>
+        <span className="nav-item">About</span>
+        <span className="nav-item">Contact</span>
       </div>
     </div>
   );

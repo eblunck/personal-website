@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import data from "../data/experience.json";
 import SectionTitle from "./SectionTitle";
 
@@ -6,9 +8,18 @@ interface ExperienceProps {
 }
 
 export default function ExperienceSection(props: ExperienceProps) {
+  const [mouseInSection, setMouseInSection] = useState<boolean>(false);
+
   return (
-    <div>
-      <SectionTitle title="Experience" idx={props.idxNumber} />
+    <div
+      onMouseEnter={() => setMouseInSection(true)}
+      onMouseLeave={() => setMouseInSection(false)}
+    >
+      <SectionTitle
+        title="Experience"
+        idx={props.idxNumber}
+        showUnderline={mouseInSection}
+      />
       <div>
         {data.map((experience) => {
           return (
